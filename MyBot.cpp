@@ -86,6 +86,9 @@ int main()
                 if (word == "pepperoni") {
                     bot.message_create(dpp::message(event.msg.channel_id, "Ban that guy"));
                 }
+		if (word == "ET") {
+                    bot.message_create(dpp::message(event.msg.channel_id, "Testing"));
+                }
             }
         }
         });
